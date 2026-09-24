@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import vue from '@vitejs/plugin-vue' // หรือ react ตามที่ใช้
 
 export default defineConfig({
+  plugins: [vue()],
   base: '/adminhome/',
-  plugins: [react()],
 })
